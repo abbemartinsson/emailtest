@@ -15,8 +15,6 @@ function App() {
          <form className="contactform" onSubmit={sendEmail}>
              <label htmlFor="emailFrom">Email From:</label>
              <input type="text" id="emailFrom" name="emailFrom" className="emailFrom"/>
-             <label htmlFor="emailTo">Send Email to:</label>
-             <input type="text" name="emailTo" id="emailTo" className=emailTo/>
              <label htmlFor="message">Message:</label>
              <textarea name="message" id="message" className="messageBox"></textarea>
              <button type="submit" variant="contained" className="submit">Submit</button>
