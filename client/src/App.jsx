@@ -7,7 +7,7 @@ function App() {
     const sendEmail = (e) => {
         e.preventDefault();
         
-        emailjs.sendForm('service_uj9e0x4', 'template_bkfchwz', e.target, 'oC-Q7nem3JATe04Mh');
+        emailjs.sendForm('code', 'code', e.target, 'code');
     }
  return(
      <div className="App">
